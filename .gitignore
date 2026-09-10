@@ -1,4 +1,5 @@
 # Tells git which files to never commit (installed packages, caches, editor junk).
 node_modules/
+.venv/
 __pycache__/
 .DS_Store

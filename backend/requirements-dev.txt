@@ -1,0 +1,4 @@
+# Development-only dependencies for the backend test suite.
+-r requirements.txt
+pytest
+httpx
