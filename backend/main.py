@@ -6,4 +6,4 @@ app = FastAPI()
 
 @app.get("/health")
 def health():
-    return {"status": "ok", "message": "Hello from the backend!"}
+    return {"status": "ok", "message": "Backend is healthy"}
