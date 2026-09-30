@@ -11,6 +11,8 @@ services:
 
   backend:
     build: ./backend
+    environment:
+      DATABASE_URL: postgresql+psycopg://admin:admin@db:5432/db
     ports:
       - "8000:8000"
     depends_on:
