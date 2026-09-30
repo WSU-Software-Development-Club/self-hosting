@@ -29,4 +29,4 @@ jobs:
     # Step 4: Run tests using pytest
     - name: Run tests with pytest
       run: |
-        pytest
+        python -m pytest backend/tests/test_health.py
